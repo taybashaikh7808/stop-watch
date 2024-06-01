@@ -1,0 +1,74 @@
+*{
+    background-color: rgb(29, 28, 28);
+}
+
+.circle {
+    height: 20rem;
+    width: 20rem;
+    border-radius: 50%;
+    border: 0.5px solid rgba(255, 255, 255, 0.979);
+    display: flex; /* Enable Flexbox */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    box-shadow: 5px 10px rgba(0, 0, 247, 0.5);
+    margin-top: 50px;
+    margin-left: 35vw;
+}
+
+.dotcircle {
+    height: 18rem;
+    width: 18rem;
+    border-radius: 50%;
+    border: 3px dotted rgba(255, 255, 255, 0.979); /* Adjust the opacity of the dots */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    color: white;
+    font-size: 60px;
+    display: flex;
+}
+button{
+    background-color: rgba(0, 0, 247, 0.5);
+    color: white;
+    font-size: 30px;
+    height: 60px;
+    width: 150px;
+    border: 2px solid white;
+}
+button:hover{
+    background-color: rgba(2, 2, 104, 0.5);
+}
+.buttons{
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-around;
+
+}
+.laps-time{
+    color: white;
+}
+#lapsContainer{
+    color: white;
+    font-size: 20px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    flex-direction: column;
+}
+@media screen and (max-width: 480px) {
+     .buttons{
+        flex-direction: column;
+        margin-top: 5vh;
+     }
+     .circle{
+        margin-left: 10vw;
+     }
+  }
+
+
+
+
